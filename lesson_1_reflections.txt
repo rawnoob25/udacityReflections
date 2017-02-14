@@ -1,0 +1,36 @@
+Q:How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+A: It pinpointed the locations of the lines that
+differed and even put a plus and minus sign to the left
+of the lines that differed..."+" indicated that content
+was added relative to the first arg to diff and "-"
+indicated that content was removed relative to the first
+arg to diff
+
+Q:How could having easy access to the entire history
+of a file make you a more efficient programmer 
+in the long term?
+
+A: Suppose I had a version that I'd long since changed,
+that has some useful content on it that I'd like to 
+place in my current version. Having access to the 
+entire history of the file would enable me to place
+contents from file that has long since been 
+
+Q:Why do you think some version control systems, 
+like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+"versioned over" into the current file.
+
+Q:What do you think are the pros and cons of manually 
+choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google 
+Docs does?
+
+A: 
+*Pros:puts you in the driver's seat of when 
+to save; allows you to track a file's history
+
+*Cons: you might forget to save when you 
+need to
